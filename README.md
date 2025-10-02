@@ -37,8 +37,9 @@ Usage Guide
 	    ./demo.sh
 
 Demos
-![YOLOv13-N](./demos/YOLOv13-N/source/yolo_output.gif)
-![ViT-B-16](./demos/ViT-B-16/source/vit_output.gif)
+![Image](demos/YOLOv13-N/source/yolo_output.gif)
+![Image](demos/ViT-B-16/source/vit_output.gif)
+
 
 
 
