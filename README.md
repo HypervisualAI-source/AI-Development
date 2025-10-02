@@ -53,7 +53,8 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 ## Demos
 
 ### ViT-B-16 Output
-![ViT-B-16 Demo](demos/ViT-B-16/source/vit_output_2.gif)
+![ViT-B-16 Demo](demos/Vlt-B-16/source/vit_output.gif)
+
 
 
 
