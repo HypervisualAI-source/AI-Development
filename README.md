@@ -31,7 +31,7 @@ Usage Guide
     3.1 Demonstrating YOLOv13-N in shell script file
    
         cd ./demos/YOLOv13-N/
-   
+
         chmod +x demo.sh
    
 	    ./demo.sh
@@ -51,9 +51,11 @@ Usage Guide
 	    ./demo.sh
 
 Demos
+
 ![Image](demos/YOLOv13-N/source/yolo_output.gif)
 
 ![Image](demos/ViT-B-16/source/vit_output.gif)
+
 
 
 
