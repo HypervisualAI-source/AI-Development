@@ -22,23 +22,24 @@ Usage Guide
     cd ./demos/YOLOv13-N/
 	python3 demo.py 
 
-3.1 Demonstrating YOLOv13-N in shell script file
-    cd ./demos/YOLOv13-N/
-    chmod +x demo.sh 
-	./demo.sh
+    3.1 Demonstrating YOLOv13-N in shell script file
+        cd ./demos/YOLOv13-N/
+        chmod +x demo.sh 
+	    ./demo.sh
 
 4. Demonstrating ViT-B-16
     cd ./demos/ViT-B-16/
 	python3 demo.py                  
                                        
-4.1 Demonstrating ViT-B-16 in shell script file
-    cd ./demos/ViT-B-16/
-    chmod +x demo.sh 
-	./demo.sh
+    4.1 Demonstrating ViT-B-16 in shell script file
+        cd ./demos/ViT-B-16/
+        chmod +x demo.sh 
+	    ./demo.sh
 
 Demos
 ![YOLOv13-N](./demos/YOLOv13-N/source/yolo_output.gif)
 ![ViT-B-16](./demos/ViT-B-16/source/vit_output.gif)
+
 
 
 
