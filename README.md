@@ -3,11 +3,11 @@ AI Development
 Hypervisual AI is currently developing a project that incorporates YOLOv13-N, with plans to integrate ViT-B-16 in future iterations.
                                                                                                     
 Install Dependencies                                                              
--git clone https://github.com/HypervisualAI-source/AI-Development.git                      
--cd AI-Development
--python3 -m venv venv
--source venv/bin/activate
--pip3 install -r requirements.txt
+git clone https://github.com/HypervisualAI-source/AI-Development.git                      
+cd AI-Development
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
 
 Usage Guide
 1. Training Model
@@ -39,5 +39,6 @@ Usage Guide
 Demos
 ![YOLOv13-N](./demos/YOLOv13-N/source/yolo_output.gif)
 ![ViT-B-16](./demos/ViT-B-16/source/vit_output.gif)
+
 
 
