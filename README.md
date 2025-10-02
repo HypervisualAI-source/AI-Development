@@ -66,7 +66,8 @@ Comapared to the version (v0.0.rc1), the improvements of the version (v0.0.rc2) 
 5. Calculate Mean Average Precision (MAP) on validation stage (src/YOLOv13-N/inference.py)
 
 ### TO DO
-1. Make a comparison between YOLOv13-N and benchmark(YOLO)
+1. Make a comparison between YOLOv13-N and benchmark(YOLOv8, Ultralycs' latest official version)
+
 
 
 
