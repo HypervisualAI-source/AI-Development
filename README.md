@@ -58,7 +58,12 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 ![Image](demos/ViT-B-16/source/vit_output.gif)
 
 ### Improvements
-Comapared with 
+Comapared to the version (v0.0.rc1), the improvements of the version (v0.0.rc2) are:
+1. Separate the demo into two sub-demos, YOLOv13-N and ViT-B-16 (demos/ViT-B-16 nad demos/YOLOv13-N)
+2. Record the output from sub-demo in video (demos/YOLOv13-N/demo.py and demos/ViT-B-16/demo.py)
+3. Supplement the pre-processing methods (src/YOLOv13-N/ultralytics/data/augment.py)
+4. Upload the training dataset, COCO dataset (URL: http://images.cocodataset.org/zips/train2017.zip and http://images.cocodataset.org/zips/val2017.zip)
+5. Caluclate Mean Average Precision (MAP) (src/YOLOv13-N/inference.py)
 
 
 
