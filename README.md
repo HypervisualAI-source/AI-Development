@@ -28,22 +28,29 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 	python3 demo.py 
 
     3.1 Demonstrating YOLOv13-N in shell script file
+   
         cd ./demos/YOLOv13-N/
-        chmod +x demo.sh 
+   
+        chmod +x demo.sh
+   
 	    ./demo.sh
 
-4. Demonstrating ViT-B-16
+5. Demonstrating ViT-B-16
    
     cd ./demos/ViT-B-16/
    
 	python3 demo.py                  
                                        
     4.1 Demonstrating ViT-B-16 in shell script file
+   
         cd ./demos/ViT-B-16/
-        chmod +x demo.sh 
+   
+        chmod +x demo.sh
+   
 	    ./demo.sh
 	
 ### Demos                          
+
 
 
 
