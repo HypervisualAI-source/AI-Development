@@ -50,12 +50,13 @@ Usage Guide
    
 	    ./demo.sh
 
-Demos
+## Demos
 
-![Image](demos/YOLOv13-N/source/yolo_output.gif)
+### YOLOv13-N Output
+![YOLOv13-N Demo](demos/YOLOv13-N/source/yolo_output.gif)
 
-![Image](demos/ViT-B-16/source/vit_output.gif)
-
+### ViT-B-16 Output
+![ViT-B-16 Demo](demos/ViT-B-16/source/vit_output.gif)
 
 
 
