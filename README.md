@@ -1,30 +1,42 @@
-Following the instruction to train YOLOv13-N, inference YOLOv13-N and demonstrate the YOLOv13-N and ViT-B-16
 
-1. Creating a virtual environment, "venv"
-    python3 -m venv venv
+AI Development                                                                                        
+Hypervisual AI is currently developing a project that incorporates YOLOv13-N, with plans to integrate ViT-B-16 in future iterations.
+                                                                                                    
+Install Dependencies                                                              
+git clone https://github.com/HypervisualAI-source/AI-Development.git                      
+cd AI-Development
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
 
-2. Activate the virtual environment
-    source venv/bin/activate
-
-3. Install the essential dependencies
-    pip3 install -r requirements.txt        
-
-4. Train YOLOv13-N from scratch 
+Usage Guide
+1. Training Model
     cd ./src/YOLOv13-N/
-	python3 train.py                        
-
-5. Inference YOLOv13-N                            
+	python3 train.py      
+	
+2. Inferencing Model
     cd ./src/YOLOv13-N/                      
 	python3 inference.py
 
-6. Demonstrate YOLOv13-N and ViT-B-16
-    cd ./demos
-	python3 demo.py                                                
-                                                                                                       
-7. Demonstrate YOLOv13-N and ViT-B-16 directly
-    cd ./demos
+3. Demonstrating YOLOv13-N 
+    cd ./demos/YOLOv13-N/
+	python3 demo.py 
+
+3.1 Demonstrating YOLOv13-N in shell script file
+    cd ./demos/YOLOv13-N/
     chmod +x demo.sh 
 	./demo.sh
-  
-                    
-                                         
+
+4. Demonstrating ViT-B-16
+    cd ./demos/ViT-B-16/
+	python3 demo.py                  
+                                       
+4.1 Demonstrating ViT-B-16 in shell script file
+    cd ./demos/ViT-B-16/
+    chmod +x demo.sh 
+	./demo.sh
+
+Demos
+![YOLOv13-N](./demos/YOLOv13-N/source/yolo_output.gif)
+![ViT-B-16](./demos/ViT-B-16/source/vit_output.gif)
+
