@@ -51,10 +51,10 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 
 	
 ### Demos
-#### YOLOv13-N
+#### YOLOv13-N for detection
 ![Image](demos/YOLOv13-N/source/yolo_output.gif)
 
-#### ViT-B-16
+#### ViT-B-16 for classification
 ![Image](demos/ViT-B-16/source/vit_output.gif)
 
 ### Improvements
@@ -67,6 +67,7 @@ Comapared to the version (v0.0.rc1), the improvements of the version (v0.0.rc2) 
 
 ### TO DO
 1. Make a comparison between YOLOv13-N and benchmark(YOLOv8, Ultralycs' latest official version)
+
 
 
 
