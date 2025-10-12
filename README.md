@@ -51,6 +51,15 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 
 	
 ### Demos
+#### Features
+| Feature        | Description                         | Status     |
+|----------------|-------------------------------------|------------|
+| Authentication | User login and registration system  | ✅ Complete |
+| API            | RESTful API for data access         | 🛠 In Progress |
+| Database       | PostgreSQL integration              | ✅ Complete |
+| UI             | Responsive React frontend           | ❌ Not Started |
+
+
 #### YOLOv13-N for detection
 ![Image](demos/YOLOv13-N/source/yolo_output.gif)
 
@@ -67,6 +76,7 @@ Comapared to the version (v0.0.rc1), the improvements of the version (v0.0.rc2) 
 
 ### TO DO
 1. Make a comparison between YOLOv13-N and benchmark(YOLOv8, Ultralycs' latest official version)
+
 
 
 
