@@ -55,14 +55,14 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 | Model | Frame size | Display  | Inference time (average/ms) | FPS (average/s) |   CPU   |
 |-------|-----|----------|---------------------------- |-----------------|---------|
 | YOLOv-13-N|(3, 640, 640) | 1920 x 1080  | 42 | 13 | 12th Gen Intel(R) Core(TM) i5-12400 |
-| ViT-B_16|(3, 224, 224) | 1920 x 1080  | 95 | 8 | 12th Gen Intel(R) Core(TM) i5-12400 |
+| ViT-B-16|(3, 224, 224) | 1920 x 1080  | 95 | 8 | 12th Gen Intel(R) Core(TM) i5-12400 |
 
 
 
-#### YOLOv13-N for detection
+#### YOLOv13-N for detection (30ms/frame)
 ![Image](demos/YOLOv13-N/source/yolo_output.gif)
 
-#### ViT-B-16 for classification
+#### ViT-B-16 for classification (30ms/frame)
 ![Image](demos/ViT-B-16/source/vit_output.gif)
 
 ### Improvements
@@ -75,6 +75,7 @@ Comapared to the version (v0.0.rc1), the improvements of the version (v0.0.rc2) 
 
 ### TO DO
 1. Make a comparison between YOLOv13-N and benchmark(YOLOv8, Ultralycs' latest official version)
+
 
 
 
