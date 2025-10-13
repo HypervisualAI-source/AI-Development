@@ -51,7 +51,7 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 
 	
 ### Demos
-#### Features of YOLOv13-N
+#### Features
 | Model | Frame size | Display  | Inference time (average/ms) | FPS (average/s) |   CPU   |
 |-------|-----|----------|---------------------------- |-----------------|---------|
 | YOLOv-13-N|(3, 640, 640) | 1920 x 1080  | 42 | 13 | 12th Gen Intel(R) Core(TM) i5-12400 |
@@ -75,6 +75,7 @@ Comapared to the version (v0.0.rc1), the improvements of the version (v0.0.rc2) 
 
 ### TO DO
 1. Make a comparison between YOLOv13-N and benchmark(YOLOv8, Ultralycs' latest official version)
+
 
 
 
