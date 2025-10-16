@@ -91,7 +91,7 @@ In order to use COCO dataset for training model and inferencing model, coco.yaml
                     
 ### Improvements                       
 #### v0.0.rc3
-Comapared to the version (v0.0.rc2), the improvements of the version (v0.0.rc3) are:
+Compared to the version (v0.0.rc2), the improvements of the version (v0.0.rc3) are:
 1. Rename the project to "AI_dev-HyVi_detection"
 2. Rearrange the 'src' directory and 'third_party_libraries' directory at a same level of structure of project 
 3. Add "benchmark_models.py", "YOLOv13_N.py" and "comparison.py" (AI_dev-HyVi_detection/src/YOLOv13-N/)
@@ -99,6 +99,7 @@ Comapared to the version (v0.0.rc2), the improvements of the version (v0.0.rc3) 
                                                                                                                                               
 ### TO DO                                         
 1. Make a comparison between YOLOv13-N and YOLOv9                                                                                                   
+
 
 
 
