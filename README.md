@@ -65,7 +65,7 @@ In order to use COCO dataset for training model and inferencing model, coco.yaml
                                 
                                                                                                                                      
 ### Benchmark                                                                                                                                                             
-| Model | parameters(M) | FLOPs(G) | Latency(ms)<br><sup>640(pixel)<br><sup>CPU(12th Gen Intel(R) Core(TM) i5-12400)| mAP50_95<br><sup>coco128(val)|  
+| Model | Parameters(M) | FLOPs(G) | Latency(ms)<br><sup>640(pixel)<br><sup>CPU(12th Gen Intel(R) Core(TM) i5-12400)| mAP50_95<br><sup>coco128(val)|  
 |-------|-----|----------|---------------------------- |-----------------|                                                                                                            
 | yolov8n | 3.2 | 8.9 | 26.00 | 44.8 |
 | yolov8s | 11.2 | 28.8 | 57.00 | 58.8 |
@@ -92,12 +92,14 @@ In order to use COCO dataset for training model and inferencing model, coco.yaml
 ### Improvements                       
 #### v0.0.rc3
 Comapared to the version (v0.0.rc2), the improvements of the version (v0.0.rc3) are:
-1. Rearrange the 'src' directory and 'third_party_libraries' directory at a same level of structure of project 
-2. Add "benchmark_models.py", "YOLOv13_N.py" and "comparison.py" (AI_dev-HyVi_detection/src/YOLOv13-N/)
-3. Compared with benchmarks: yolov8n, yolov8s, yolov8m, yolov8l, yolov8x
+1. Rename the project as "AI_dev-HyVi_detection"
+2. Rearrange the 'src' directory and 'third_party_libraries' directory at a same level of structure of project 
+3. Add "benchmark_models.py", "YOLOv13_N.py" and "comparison.py" (AI_dev-HyVi_detection/src/YOLOv13-N/)
+4. Compared with benchmarks: yolov8n, yolov8s, yolov8m, yolov8l, yolov8x
                                                                                                                                               
 ### TO DO                                         
 1. Make a comparison between YOLOv13-N and YOLOv9                                                                                                   
+
 
 
 
